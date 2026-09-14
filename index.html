@@ -1,0 +1,942 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Свежий Вздох: бросить курить без ломки и не сорваться</title>
+<meta name="description" content="Свежий Вздох: обучение и закрытое сообщество. Как бросить курить без ломки и как не сорваться. Экзамен, лицензия, День Х и поддержка, пока жизнь без никотина не станет нормой.">
+<meta name="keywords" content="как бросить курить, бросить курить без ломки, как не сорваться, отказ от курения, никотиновая зависимость, помощь бросить курить, свежий вздох">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#EEF6FC">
+<meta name="color-scheme" content="light">
+<link rel="canonical" href="https://svezhiy-vzdoh.ru/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌿%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Свежий Вздох">
+<meta property="og:title" content="Свежий Вздох: бросить без ломки и не сорваться">
+<meta property="og:description" content="Обучение, экзамен, лицензия и закрытое сообщество. Весь путь бросания курения в одном месте.">
+<meta property="og:url" content="https://svezhiy-vzdoh.ru/">
+<meta property="og:image" content="https://svezhiy-vzdoh.ru/img/hero.jpg?v=1">
+<meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+:root{
+  --sky:#EEF6FC; --sky-2:#DCEDFA; --glass:rgba(255,255,255,.8); --white:#FFFFFF;
+  --ink:#0B2A4A; --ink-2:#3A5676; --ink-3:#6A83A0; --line:#CFE1F2;
+  --azure:#1F7BD8; --azure-d:#1462B3; --azure-t:#E3F0FC;
+  --gold:#E3A92B; --gold-d:#A8750F; --gold-t:#FFF5DE;
+  --leaf:#2E9E5B;
+  --f-disp:"Unbounded","Arial Black",system-ui,sans-serif;
+  --f-body:"Manrope",-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --r:22px; --r-s:14px;
+  --shadow:0 18px 50px -24px rgba(11,42,74,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--sky);color:var(--ink);font:500 17px/1.62 var(--f-body);
+  background-image:radial-gradient(1100px 520px at 85% -120px,#CFE6FA 0,transparent 70%),radial-gradient(900px 480px at -10% 8%,#E6F3FD 0,transparent 70%);
+  background-repeat:no-repeat}
+img{max-width:100%;display:block;height:auto}
+a{color:var(--azure-d)}
+.wrap{width:100%;max-width:1120px;margin-inline:auto;padding-inline:20px}
+.narrow{max-width:760px}
+h1,h2,h3{margin:0;text-wrap:balance;color:var(--ink)}
+h1,h2{font-family:var(--f-disp);font-weight:700;letter-spacing:-.01em;line-height:1.12}
+h1{font-size:clamp(30px,5vw,60px)}
+h2{font-size:clamp(25px,3.5vw,40px)}
+h3{font:800 19px/1.3 var(--f-body)}
+p{margin:0}
+.label{font:600 12.5px/1.3 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--azure-d)}
+.lead{font-size:clamp(17px,2vw,20px);color:var(--ink-2);max-width:62ch}
+.muted{color:var(--ink-2)}
+section{padding-block:clamp(56px,8vw,104px)}
+.tight{padding-top:0}
+.stack{display:flex;flex-direction:column;gap:18px}
+.stack-l{display:flex;flex-direction:column;gap:30px}
+
+/* кнопки */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:14px 26px;border-radius:16px;
+  font:800 17px/1.2 var(--f-body);text-decoration:none;border:0;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease}
+.btn-main{background:linear-gradient(180deg,#2A8AE8,var(--azure-d));color:#fff;box-shadow:0 14px 30px -12px rgba(20,98,179,.65)}
+.btn-main:hover{transform:translateY(-2px);box-shadow:0 18px 38px -12px rgba(20,98,179,.75)}
+.btn-gold{background:linear-gradient(180deg,#F3C451,#D9961A);color:#3A2600;box-shadow:0 14px 30px -12px rgba(169,117,15,.7)}
+.btn-gold:hover{transform:translateY(-2px)}
+.btn-ghost{background:var(--white);color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--line)}
+.btn-ghost:hover{box-shadow:inset 0 0 0 1.5px var(--azure)}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.btn small{font:600 13px/1 var(--f-mono);opacity:.8;letter-spacing:.02em}
+
+/* шапка */
+.nav{position:sticky;top:0;z-index:30;background:rgba(238,246,252,.84);backdrop-filter:saturate(1.4) blur(12px);-webkit-backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid rgba(207,225,242,.7)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font:700 17px/1 var(--f-disp);letter-spacing:-.01em}
+.brand b{color:var(--azure)}
+.nav-links{display:flex;gap:24px;align-items:center}
+.nav-links a:not(.btn){color:var(--ink-2);text-decoration:none;font-weight:700;font-size:15px}
+.nav-links a:not(.btn):hover{color:var(--azure-d)}
+.nav .btn{min-height:42px;padding:10px 18px;font-size:15px;border-radius:12px}
+@media (max-width:880px){.nav-links a:not(.btn){display:none}}
+
+/* место под картинку, пока идёт генерация */
+.ph{aspect-ratio:16/9;width:100%;max-width:100%;border-radius:26px;border:2px dashed #A9C6E2;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;
+  padding:24px;text-align:center;background:linear-gradient(160deg,#F6FBFF,#DDEEFB)}
+.ph span{font:600 12px/1.3 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--azure-d)}
+.ph p{font-weight:700;color:var(--ink-2);max-width:40ch}
+.frame{border-radius:26px;overflow:hidden;border:6px solid var(--white);box-shadow:var(--shadow)}
+
+/* герой */
+.hero{padding-block:clamp(36px,6vw,72px) clamp(40px,6vw,64px)}
+.hero h1 em{font-style:normal;color:var(--azure);display:block}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:700 14px/1 var(--f-body);color:var(--azure-d);background:var(--white);border:1px solid var(--line);padding:9px 14px;border-radius:999px}
+
+/* два вопроса */
+.qs{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.q{border-radius:var(--r);padding:30px;display:flex;flex-direction:column;gap:14px;background:var(--white);border:1px solid var(--line);text-decoration:none;color:inherit;transition:transform .15s ease,box-shadow .15s ease}
+.q:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.q .ask{font:700 clamp(21px,2.6vw,28px)/1.25 var(--f-disp);letter-spacing:-.01em;color:var(--ink)}
+.q .go{margin-top:auto;font:700 15px/1 var(--f-body);color:var(--azure-d)}
+.q.two{background:linear-gradient(160deg,#0F3C69,#0B2A4A);border-color:transparent}
+.q.two .ask{color:#fff}
+.q.two .label{color:#9CC8F2}
+.q.two p{color:#C9DDF2}
+.q.two .go{color:var(--gold)}
+@media (max-width:720px){.qs{grid-template-columns:1fr}}
+.formula{font:700 clamp(19px,2.3vw,24px)/1.4 var(--f-body);max-width:46ch}
+.formula span{color:var(--azure-d)}
+
+/* метод: части обучения */
+.method{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;list-style:none;margin:0;padding:0}
+.method li{background:var(--white);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:10px}
+.method .n{font:600 13px/1 var(--f-mono);color:var(--azure-d);letter-spacing:.1em}
+.method h3{font-size:18px}
+.method .sub{font:700 14px/1.3 var(--f-body);color:var(--azure-d)}
+.method p{color:var(--ink-2);font-size:15.5px}
+@media (max-width:980px){.method{grid-template-columns:1fr 1fr}}
+@media (max-width:540px){.method{grid-template-columns:1fr}}
+
+/* тезис событие / процесс */
+.thesis{display:flex;flex-direction:column;gap:6px;padding:clamp(20px,3.5vw,34px) 0 clamp(20px,3.5vw,34px) clamp(18px,3vw,30px);border-left:6px solid var(--azure);
+  font:700 clamp(26px,4.4vw,52px)/1.15 var(--f-disp);letter-spacing:-.015em;color:var(--ink)}
+.thesis span{color:var(--ink-2);font-weight:600}
+.thesis .ev{color:var(--azure)}
+.thesis .pr{color:var(--ink);background:linear-gradient(transparent 62%,rgba(227,169,43,.45) 62%)}
+
+/* биохакинг */
+.hack{display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(22px,4vw,56px);align-items:center;margin-top:10px;
+  background:linear-gradient(160deg,#0F3C69,#0B2A4A);border-radius:28px;padding:clamp(26px,4.5vw,52px);color:#C9DDF2}
+.hack .label{color:#9CC8F2}
+.hack-big{font:700 clamp(26px,3.6vw,42px)/1.18 var(--f-disp);letter-spacing:-.01em;color:#fff;text-wrap:balance}
+.hack-big span{color:var(--gold)}
+.hack p:not(.hack-big){font-size:clamp(16.5px,1.8vw,18.5px)}
+.hack .hack-last{font-weight:800;color:#fff;padding-top:14px;border-top:1px solid rgba(255,255,255,.16)}
+@media (max-width:820px){.hack{grid-template-columns:1fr}}
+
+/* лицензия */
+.lic-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:clamp(28px,5vw,60px);align-items:start}
+.lic-card img{border-radius:22px;box-shadow:var(--shadow)}
+.lic-cap{margin-top:16px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font:600 12.5px/1.3 var(--f-mono);color:var(--ink-3);letter-spacing:.06em}
+.steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.steps li{display:grid;grid-template-columns:44px 1fr;gap:14px;padding:16px 0;border-top:1px solid var(--line)}
+.steps li:first-child{border-top:0;padding-top:4px}
+.steps .n{width:36px;height:36px;border-radius:11px;display:grid;place-items:center;font:600 14px/1 var(--f-mono);background:var(--azure-t);color:var(--azure-d)}
+.steps li.gold .n{background:var(--gold-t);color:var(--gold-d)}
+.steps h3{font-size:17.5px;margin-bottom:3px}
+.steps p{color:var(--ink-2);font-size:16px}
+.honest{background:var(--gold-t);border-radius:var(--r-s);padding:20px 22px;border:1px solid #F1DDA8;color:#4A3A12}
+.honest b{color:#3A2600}
+.slip-note{border-left:6px solid var(--gold);font:600 clamp(17px,2vw,19px)/1.5 var(--f-body)}
+@media (max-width:900px){.lic-grid{grid-template-columns:1fr}}
+
+/* событие / процесс */
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.duo-card{background:var(--white);border-radius:var(--r);padding:28px;border:1px solid var(--line);display:flex;flex-direction:column;gap:12px}
+.duo-card .big{font:800 clamp(32px,4.6vw,50px)/1 var(--f-disp);letter-spacing:-.02em;color:var(--azure)}
+.duo-card.process{background:var(--azure-t);border-color:#B9D8F5}
+.duo-card.process .big{color:var(--ink)}
+@media (max-width:720px){.duo{grid-template-columns:1fr}}
+.life{display:flex;flex-wrap:wrap;gap:8px}
+.life span{font-weight:700;font-size:15px;padding:8px 14px;border-radius:10px;background:var(--white);border:1px solid var(--line);color:var(--ink)}
+.chain{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font:600 clamp(15px,2vw,18px)/1 var(--f-mono)}
+.chain span{padding:12px 16px;border-radius:12px;background:var(--white);border:1.5px dashed #A9C6E2;color:var(--ink-2)}
+.chain i{font-style:normal;color:var(--ink-3)}
+.chain.new span{border:1.5px solid var(--azure);color:var(--azure-d);background:var(--azure-t)}
+
+.gym{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,5vw,64px);align-items:start}
+.gym blockquote{margin:0;font:600 clamp(21px,2.6vw,29px)/1.38 var(--f-body);color:var(--ink);padding-left:22px;border-left:4px solid var(--gold)}
+@media (max-width:820px){.gym{grid-template-columns:1fr}}
+
+.value{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(24px,4vw,56px);align-items:center}
+.loop{background:var(--white);border:1px solid var(--line);border-radius:26px;padding:clamp(20px,3vw,30px);box-shadow:var(--shadow)}
+.loop-head{display:flex;justify-content:space-between;align-items:center;font:600 12.5px/1.3 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--azure-d);padding-bottom:14px;border-bottom:1.5px dashed var(--line)}
+.loop-head span:last-child{font-size:24px;letter-spacing:0;color:var(--gold-d)}
+.loop ol{list-style:none;margin:0;padding:0}
+.loop li{display:grid;grid-template-columns:40px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid var(--line)}
+.loop .n{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font:600 14px/1 var(--f-mono);background:var(--azure-t);color:var(--azure-d)}
+.loop li:last-child .n{background:var(--gold-t);color:var(--gold-d)}
+.loop h3{font-size:17px;margin-bottom:2px}
+.loop p{color:var(--ink-2);font-size:15.5px}
+.loop .loop-foot{padding-top:14px;font-weight:700;color:var(--ink)}
+.key{font:700 clamp(19px,2.3vw,24px)/1.4 var(--f-body);max-width:52ch;color:var(--ink)}
+.key span{color:var(--azure-d)}
+@media (max-width:860px){.value{grid-template-columns:1fr}}
+
+/* маршрут */
+.route-box{background:var(--white);border-radius:30px;border:1px solid var(--line);padding:clamp(22px,4vw,44px);box-shadow:var(--shadow)}
+.route{display:grid;grid-template-columns:repeat(6,1fr);grid-template-rows:42px auto;column-gap:10px;margin-top:30px}
+.zone{grid-row:1/3;border-radius:20px;padding:14px 14px 0;font:600 12.5px/1.3 var(--f-mono);letter-spacing:.12em;text-transform:uppercase}
+.zone-edu{grid-column:1/3;background:var(--sky);color:var(--ink-3)}
+.zone-club{grid-column:3/7;background:linear-gradient(180deg,#DDEEFC,#EEF7FF);color:var(--azure-d);box-shadow:inset 0 0 0 1.5px #B9D8F5}
+.zone small{display:block;margin-top:4px;font-size:11px;letter-spacing:.1em;opacity:.8;text-transform:none}
+.route-line{grid-row:2;grid-column:1/7;height:3px;align-self:start;margin:31px 8.33% 0;background:linear-gradient(90deg,#A9C6E2,var(--azure) 30%,var(--azure) 80%,var(--gold));border-radius:3px;z-index:1}
+.route-legend{display:grid;grid-template-columns:1fr 2fr;gap:10px;margin-top:14px}
+.rl{border-radius:20px;padding:18px 20px}
+.rl b{display:block;font:600 12.5px/1.3 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;margin-bottom:8px}
+.rl p{margin:0;font-size:16px;line-height:1.55;color:var(--ink-2)}
+.rl-edu{background:var(--sky)}.rl-edu b{color:var(--ink-3)}
+.rl-club{background:linear-gradient(180deg,#DDEEFC,#EEF7FF);box-shadow:inset 0 0 0 1.5px #B9D8F5}.rl-club b{color:var(--azure-d)}
+@media (max-width:820px){.route-legend{grid-template-columns:1fr}}
+.st{grid-row:2;position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;padding:18px 6px 22px}
+.st .dot{width:30px;height:30px;border-radius:50%;background:var(--white);border:3px solid var(--azure);display:grid;place-items:center;font:600 12px/1 var(--f-mono);color:var(--azure-d)}
+.st1 .dot{border-color:#A9C6E2;color:var(--ink-3)}
+.st6 .dot{background:var(--gold);border-color:var(--gold);color:#3A2600}
+.st b{font:800 15.5px/1.3 var(--f-body);color:var(--ink)}
+.st .tag{display:none}
+.st1{grid-column:1}.st2{grid-column:2}.st3{grid-column:3}.st4{grid-column:4}.st5{grid-column:5}.st6{grid-column:6}
+@media (max-width:820px){
+  .route{grid-template-columns:52px 1fr;grid-template-rows:repeat(6,auto);column-gap:0}
+  .zone{padding:0;font-size:0}
+  .zone small{display:none}
+  .zone-edu{grid-column:1;grid-row:1/3;border-radius:26px 26px 0 0}
+  .zone-club{grid-column:1;grid-row:3/7;border-radius:0 0 26px 26px}
+  .route-line{grid-column:1;grid-row:1/7;width:3px;height:auto;margin:30px 0;justify-self:center;align-self:stretch;
+    background:linear-gradient(180deg,#A9C6E2,var(--azure) 30%,var(--azure) 82%,var(--gold))}
+  .st{grid-column:1/3;flex-direction:row;align-items:center;text-align:left;gap:16px;padding:14px 0 14px 11px}
+  .st1{grid-row:1}.st2{grid-row:2}.st3{grid-row:3}.st4{grid-row:4}.st5{grid-row:5}.st6{grid-row:6}
+  .st .dot{flex:0 0 30px}
+  .st .tx{display:flex;flex-direction:column;gap:2px}
+  .st .tag{display:block;font:600 11px/1.2 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--azure-d)}
+  .st1 .tag{color:var(--ink-3)}
+}
+
+.slip{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,48px);align-items:center;background:var(--white);border:1px solid var(--line);border-radius:26px;padding:clamp(22px,4vw,40px)}
+@media (max-width:820px){.slip{grid-template-columns:1fr}}
+
+/* сколько быть внутри */
+.stay{max-width:820px;margin:0 auto;text-align:center;display:flex;flex-direction:column;align-items:center;gap:18px}
+.stay .lead{max-width:60ch}
+.stay .quote{margin:6px 0;font:700 clamp(21px,2.6vw,28px)/1.3 var(--f-disp);letter-spacing:-.01em;color:var(--azure-d);max-width:26ch}
+.worth{width:100%;background:var(--white);border:1px solid var(--line);border-radius:26px;padding:clamp(20px,3.5vw,32px);box-shadow:var(--shadow);text-align:left}
+.worth-row{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:stretch}
+.worth-row>div{border-radius:18px;padding:16px 18px}
+.worth-row small{display:block;font:600 11.5px/1.3 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;margin-bottom:6px}
+.worth-row b{font:800 clamp(17px,2vw,20px)/1.3 var(--f-body)}
+.w-nic{background:#F3F5F8;color:var(--ink-3)}.w-nic b{color:var(--ink-2)}
+.w-club{background:var(--gold-t);box-shadow:inset 0 0 0 1.5px #F1DDA8}.w-club small{color:var(--gold-d)}.w-club b{color:#3A2600}
+.worth-vs{align-self:center;font:700 13px/1 var(--f-mono);color:var(--ink-3)}
+.worth p{margin:16px 0 0;font-size:17px;line-height:1.55;color:var(--ink-2)}
+.worth p b{color:var(--ink)}
+@media (max-width:640px){.worth-row{grid-template-columns:1fr}.worth-vs{justify-self:center}}
+
+/* автор */
+.author{display:grid;grid-template-columns:300px 1fr;gap:clamp(24px,4vw,48px);align-items:center}
+.author img{border-radius:24px;aspect-ratio:3/4;object-fit:cover;width:100%;max-width:300px;box-shadow:var(--shadow)}
+.facts{display:flex;flex-wrap:wrap;gap:28px;margin-top:6px}
+.facts div{display:flex;flex-direction:column}
+.facts b{font:700 clamp(26px,3vw,34px)/1.1 var(--f-disp);color:var(--azure-d);font-variant-numeric:tabular-nums}
+.facts span{font-size:14px;color:var(--ink-3);font-weight:700}
+@media (max-width:760px){.author{grid-template-columns:1fr}.author img{max-width:260px}}
+
+/* видео внизу */
+.vid{display:flex;flex-direction:column;align-items:center;gap:28px}
+.vid-head{text-align:center;align-items:center;max-width:820px}
+.vid-head h2{font-size:clamp(30px,5vw,56px)}
+.vid-head h2 em{font-style:normal;color:var(--azure)}
+.vid-box{position:relative;display:block;width:100%;max-width:960px;aspect-ratio:16/9;border-radius:26px;overflow:hidden;border:6px solid var(--white);box-shadow:var(--shadow);background:var(--ink)}
+.vid-box img,.vid-box iframe{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0}
+.vid-play{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border-radius:50%;background:var(--gold);display:grid;place-items:center;box-shadow:0 0 0 12px rgba(227,169,43,.3),0 14px 40px -10px rgba(0,0,0,.6);transition:transform .2s}
+.vid-play svg{width:38px;height:38px;fill:#3A2600;margin-left:5px}
+.vid-box:hover .vid-play{transform:scale(1.08)}
+.vid-text{width:100%;max-width:760px;display:flex;flex-direction:column;gap:16px}
+.vid-text p{margin:0;color:var(--ink-2)}
+.vid-text h3{margin:14px 0 0;font:800 clamp(20px,2.4vw,26px)/1.25 var(--f-disp);color:var(--ink)}
+.vid-big{font:700 clamp(20px,2.4vw,26px)/1.4 var(--f-body)!important;color:var(--ink)!important}
+.vid-big span{color:var(--azure-d)}
+.vid-fin{font:800 clamp(19px,2.2vw,23px)/1.35 var(--f-body);color:var(--ink)!important}
+.diag-box{width:100%;max-width:760px;background:var(--white);border:1px solid var(--line);border-radius:22px;padding:clamp(20px,3.5vw,30px);box-shadow:var(--shadow);display:flex;flex-direction:column;align-items:flex-start;gap:16px}
+.diag-box p{margin:0;font-size:18px;color:var(--ink-2)}
+.diag-box b{color:var(--ink)}
+@media (max-width:560px){.vid-play{width:66px;height:66px;margin:-33px 0 0 -33px}.vid-play svg{width:30px;height:30px}}
+
+/* карусель старых фото */
+.past{display:flex;flex-direction:column;gap:28px}
+.car{position:relative;width:100%;max-width:900px;margin-inline:auto}
+.car-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;border-radius:26px;border:6px solid var(--white);box-shadow:var(--shadow);background:var(--ink);scrollbar-width:none}
+.car-track::-webkit-scrollbar{display:none}
+.car-slide{flex:0 0 100%;margin:0;position:relative;aspect-ratio:4/3;max-width:100%;overflow:hidden;scroll-snap-align:center}
+.car-slide .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(22px) brightness(.65);transform:scale(1.15)}
+.car-slide .fg{position:relative;display:block;width:100%;height:100%;object-fit:contain}
+.car-btn{position:absolute;top:calc(50% - 40px);width:46px;height:46px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:var(--ink);font:400 30px/1 var(--f-body);cursor:pointer;box-shadow:0 8px 24px -8px rgba(11,42,74,.5);display:grid;place-items:center;padding:0 0 4px}
+.car-btn:hover{background:#fff}
+.car-prev{left:14px}.car-next{right:14px}
+.car-dots{display:flex;justify-content:center;gap:8px;margin-top:16px}
+.car-dots button{width:9px;height:9px;border-radius:5px;border:0;padding:0;background:#B9D8F5;cursor:pointer;transition:width .25s,background .25s}
+.car-dots button.on{width:26px;background:var(--azure)}
+@media (max-width:560px){.car-btn{width:38px;height:38px;font-size:24px;top:calc(50% - 34px)}.car-prev{left:8px}.car-next{right:8px}}
+
+/* цена */
+.price-sec{background:linear-gradient(180deg,#0F3C69 0,#0B2A4A 100%);color:#EAF4FF}
+.price-sec h2,.price-sec h3{color:#fff}
+.price-sec .label{color:#9CC8F2}
+.price-sec .lead{color:#C9DDF2}
+.price-sec .frame{border-color:rgba(255,255,255,.14);box-shadow:0 30px 80px -30px rgba(0,0,0,.6)}
+.price-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.pbox{border-radius:var(--r);padding:26px;display:flex;flex-direction:column;gap:8px}
+.pbox.bad{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14)}
+.pbox.bad .sum{font:700 clamp(28px,4vw,42px)/1 var(--f-disp);color:#9FB6CF;text-decoration:line-through;text-decoration-thickness:3px;text-decoration-color:#8FB3D9}
+.pbox.good{background:var(--white);color:var(--ink)}
+.pbox .t{font:600 12.5px/1.3 var(--f-mono);letter-spacing:.12em;text-transform:uppercase}
+.pbox.bad .t{color:#9CC8F2}
+.pbox.good .t{color:var(--azure-d)}
+.pbox .was{font:600 18px/1 var(--f-mono);color:var(--ink-3);text-decoration:line-through}
+.pbox .now{font:800 clamp(38px,5.5vw,60px)/1 var(--f-disp);color:var(--ink);letter-spacing:-.02em}
+.pbox .now small{font-size:.42em;color:var(--ink-3);font-weight:700}
+.timer{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-weight:700;color:#C9DDF2}
+.timer .clock{font:600 22px/1 var(--f-mono);color:var(--gold);background:rgba(227,169,43,.12);border:1px solid rgba(227,169,43,.35);padding:10px 14px;border-radius:12px;font-variant-numeric:tabular-nums}
+.timer b{color:#fff}
+.buy-row{display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+.buy-row .note{font-size:14px;color:#9FB6CF}
+.ladder{list-style:none;margin:0;padding:0;border-radius:var(--r);overflow:hidden;border:1px solid rgba(255,255,255,.14)}
+.ladder li{display:grid;grid-template-columns:150px 1fr auto;gap:14px;align-items:center;padding:15px 20px;border-top:1px solid rgba(255,255,255,.1);color:#C9DDF2}
+.ladder li:first-child{border-top:0}
+.ladder .w{font:600 13px/1.2 var(--f-mono);color:#9CC8F2;letter-spacing:.04em}
+.ladder .p{font:700 17px/1 var(--f-mono);color:#fff;font-variant-numeric:tabular-nums;white-space:nowrap}
+.ladder li.past{opacity:.42}
+.ladder li.past .p{text-decoration:line-through}
+.ladder li.on{background:rgba(227,169,43,.14);color:#fff}
+.ladder li.on .p{color:var(--gold)}
+.ladder li.on .w::after{content:" · сейчас";color:var(--gold)}
+@media (max-width:640px){.price-grid{grid-template-columns:1fr}.ladder li{grid-template-columns:1fr auto;gap:4px 12px}.ladder .w{grid-column:1/3}}
+
+/* гарантия */
+.guar{display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center;background:var(--white);border:1px solid var(--line);border-radius:26px;padding:clamp(22px,4vw,36px)}
+.seal{width:92px;height:92px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,#fff,#E7EEF6 70%);box-shadow:inset 0 0 0 3px #C9D6E4,0 10px 24px -12px rgba(11,42,74,.4);font:800 13px/1.1 var(--f-disp);text-align:center;color:var(--ink)}
+.seal b{display:block;font-size:30px;color:var(--azure-d)}
+@media (max-width:520px){.guar{grid-template-columns:1fr}}
+
+/* купи билет */
+.ticket-sec{background:linear-gradient(180deg,var(--sky) 0,#D6EAFA 100%)}
+.tk-rows{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,56px);align-items:center}
+.tk-rows + .tk-rows{margin-top:clamp(28px,4vw,48px)}
+.tk-rows.rev > :first-child{order:2}
+@media (max-width:860px){.tk-rows{grid-template-columns:1fr}.tk-rows.rev > :first-child{order:0}}
+.tk-text{font-size:clamp(18px,2vw,21px);line-height:1.6;color:var(--ink)}
+.ticket{display:grid;grid-template-columns:1fr 118px;background:var(--white);border-radius:22px;box-shadow:0 28px 60px -28px rgba(11,42,74,.5);position:relative;overflow:hidden;
+  transform:rotate(1.4deg)}
+.tk-main{padding:22px 24px;display:flex;flex-direction:column;gap:16px;min-width:0}
+.tk-top{display:flex;justify-content:space-between;gap:10px;align-items:center;font:600 11px/1.2 var(--f-mono);letter-spacing:.14em;color:var(--ink-3)}
+.tk-top b{font:700 14px/1 var(--f-disp);letter-spacing:0;color:var(--azure-d)}
+.tk-route{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center}
+.tk-route small,.tk-f small{display:block;font:600 10.5px/1.2 var(--f-mono);letter-spacing:.14em;color:var(--ink-3);text-transform:uppercase}
+.tk-route b{font:700 clamp(15px,1.8vw,18px)/1.2 var(--f-disp);color:var(--ink)}
+.tk-route .to b{color:var(--azure-d)}
+.tk-route svg{width:30px;height:30px;fill:var(--gold)}
+.tk-f{display:grid;grid-template-columns:1fr 1fr;gap:12px 16px;padding-top:14px;border-top:1.5px dashed var(--line)}
+.tk-f b{font:700 14.5px/1.3 var(--f-body);color:var(--ink)}
+.tk-stub{border-left:2px dashed #BCD4EA;background:var(--azure-t);display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 10px;gap:12px;position:relative}
+.tk-stub::before,.tk-stub::after{content:"";position:absolute;left:-13px;width:24px;height:24px;border-radius:50%;background:#E3F0FB}
+.tk-stub::before{top:-12px}.tk-stub::after{bottom:-12px}
+.tk-stub .code{width:64px;flex:1;min-height:110px;background:repeating-linear-gradient(0deg,var(--ink) 0 3px,transparent 3px 6px,var(--ink) 6px 7px,transparent 7px 11px,var(--ink) 11px 15px,transparent 15px 17px);border-radius:3px;opacity:.85}
+.tk-stub span{font:600 11px/1.2 var(--f-mono);letter-spacing:.14em;color:var(--azure-d)}
+@media (max-width:480px){.ticket{grid-template-columns:1fr 84px}.tk-f{grid-template-columns:1fr}.tk-stub .code{width:44px}}
+.checklist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;max-width:520px}
+.checklist li{display:flex;gap:12px;align-items:center;background:var(--white);border:1px solid var(--line);border-radius:14px;padding:13px 16px;font-weight:700}
+.checklist li svg{flex:0 0 22px;width:22px;height:22px;stroke:var(--leaf);fill:none;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.checklist li.fin{background:var(--ink);color:#fff;border-color:var(--ink)}
+.checklist li.fin svg{stroke:var(--gold)}
+.tk-cta{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.tk-cta .note{font-size:14px;color:var(--ink-3)}
+.slogan{font:800 clamp(22px,2.8vw,30px)/1.2 var(--f-disp);color:var(--gold-d)}
+
+footer{padding-block:40px 110px;border-top:1px solid var(--line);color:var(--ink-3);font-size:14px;background:#D6EAFA}
+footer .wrap{display:flex;flex-wrap:wrap;gap:10px 28px;justify-content:space-between}
+footer a{color:var(--ink-2);text-decoration:none;font-weight:700}
+
+/* липкая панель на телефоне */
+.sticky{position:fixed;left:12px;right:12px;bottom:12px;z-index:40;display:none;align-items:center;gap:12px;padding:10px 10px 10px 16px;border-radius:18px;
+  background:rgba(11,42,74,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#fff;box-shadow:0 20px 40px -16px rgba(0,0,0,.5);
+  transform:translateY(140%);transition:transform .3s ease}
+.sticky.show{transform:none}
+.sticky .sp{display:flex;flex-direction:column;line-height:1.15;min-width:0}
+.sticky .sp b{font:800 18px/1.1 var(--f-disp)}
+.sticky .sp span{font:600 12.5px/1.2 var(--f-mono);color:var(--gold);font-variant-numeric:tabular-nums}
+.sticky .btn{margin-left:auto;min-height:46px;padding:10px 18px;font-size:15.5px;border-radius:13px}
+@media (max-width:820px){.sticky{display:flex}}
+
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Свежий Вздох, наверх">
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#1462B3"/><stop offset="1" stop-color="#46A7F0"/></linearGradient></defs><path d="M6 26C4 14 12 5 27 4c1 14-7 23-19 22z" fill="url(#lg)"/><path d="M8 25C12 18 17 13 23 9" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+      <span>Свежий <b>Вздох</b></span>
+    </a>
+    <nav class="nav-links" aria-label="Разделы">
+      <a href="#bez-lomki">Бросить без ломки</a>
+      <a href="#ne-sryvatsya">Не сорваться</a>
+      <a href="#licenziya">Лицензия</a>
+      <a href="#cena">Цена</a>
+      <a class="btn btn-main" href="#bilet">Купить билет</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- БЛОК 1. ГЛАВНЫЙ ЭКРАН -->
+<section class="hero" id="hero">
+  <div class="wrap stack-l">
+    <div class="stack">
+      <span class="label">Закрытое сообщество «Свежий Вздох»</span>
+      <h1>Бросить курить без ломки. <em>И больше не сорваться.</em></h1>
+      <p class="lead">Свежий Вздох закрывает весь путь. Обучение, после которого ты бросаешь спокойно. И сообщество, в котором ты остаёшься некурящим.</p>
+      <div class="chips"><span class="chip">без ломки</span><span class="chip">без стресса</span><span class="chip">без зажора</span></div>
+    </div>
+    <img class="frame" src="img/hero.jpg" width="1600" height="900" alt="Свежий Вздох: обучение, экзамен, лицензия и сообщество в одном приложении" fetchpriority="high">
+  </div>
+</section>
+
+<!-- БЛОК 2. ДВА ВОПРОСА -->
+<section class="tight">
+  <div class="wrap stack-l">
+    <div class="stack narrow">
+      <span class="label">Весь путь в одном месте</span>
+      <h2>Свежий Вздох отвечает на два главных вопроса</h2>
+    </div>
+    <div class="qs">
+      <a class="q" href="#bez-lomki">
+        <span class="label">Часть 1 · Обучение</span>
+        <p class="ask">Как бросить без ломки?</p>
+        <p class="muted">Разбираешься, как устроена зависимость. Сдаёшь экзамен. В свой вечер бросаешь: спокойно, без стресса и зажора.</p>
+        <span class="go">Как устроено обучение ↓</span>
+      </a>
+      <a class="q two" href="#ne-sryvatsya">
+        <span class="label">Часть 2 · Закрытое сообщество</span>
+        <p class="ask">Как не сорваться?</p>
+        <p>Закрепляешь новую жизнь, пока не курить не станет обычным состоянием. А если срыв всё-таки был, знаешь, как снова бросить и в этот раз закрепиться.</p>
+        <span class="go">Как работает сообщество ↓</span>
+      </a>
+    </div>
+    <p class="formula">Бросить значит принять решение. <span>Не вернуться значит перестроиться.</span> Здесь есть всё и для первого, и для второго.</p>
+  </div>
+</section>
+
+<!-- БЛОК 3. КАК БРОСИТЬ БЕЗ ЛОМКИ -->
+<section id="bez-lomki" class="tight">
+  <div class="wrap stack-l">
+    <div class="stack narrow">
+      <span class="label">Часть 1 · Обучение</span>
+      <h2>Как бросить без ломки</h2>
+      <p class="lead">Когда понимаешь, как устроена зависимость, страх уходит. А без страха бросать спокойно. Обучение идёт по шагам, и каждый шаг готовит следующий.</p>
+    </div>
+    <img class="frame" src="img/bez-lomki-v2.jpg" width="1600" height="900" loading="lazy" alt="То, что понимаешь, тем управляешь: человек у горного озера на рассвете">
+    <ol class="method">
+      <li><span class="n">ШАГ 1</span><h3>Биология</h3><span class="sub">Узнаёшь, как всё работает</span><p>Видеокурс практикующего врача-нарколога: как устроена зависимость, простым языком.</p></li>
+      <li><span class="n">ШАГ 2</span><h3>Психология</h3><span class="sub">Ставишь мышление некурящего</span><p>Аудиокнига, которая меняет само отношение к сигарете.</p></li>
+      <li><span class="n">ШАГ 3</span><h3>Список «Зачем»</h3><span class="sub">Фундамент намерения</span><p>Раздел «Моё ЗАЧЕМ» в боте хранит твои причины и возвращает их в нужный момент.</p></li>
+      <li><span class="n">ШАГ 4</span><h3>День Х</h3><span class="sub">Намерение и медитация</span><p>Видео на 40 минут: какой настрой, что делать, когда и о чём думать. Медитация и ритуал с манифестом.</p></li>
+    </ol>
+    <div class="hack">
+      <div class="stack">
+        <span class="label">Биохакинг</span>
+        <p class="hack-big">То, что понимаешь, <span>тем и управляешь.</span></p>
+      </div>
+      <div class="stack">
+        <p>Ты перестаёшь путать себя и химию. Ломка и тяга уже не «я хочу», а понятный физиологический процесс с началом и концом, который ты узнаёшь в лицо.</p>
+        <p>По сути это и есть биохакинг: разобраться, как работает твоя собственная химия, и забрать управление обратно себе.</p>
+        <p class="hack-last">Самообладание не нужно выжимать из себя: оно приходит вместе с пониманием.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- БЛОК 4. ЭКЗАМЕН И ЛИЦЕНЗИЯ -->
+<section id="licenziya">
+  <div class="wrap stack-l">
+    <div class="stack narrow">
+      <span class="label">Перед Днём Х</span>
+      <h2>Сначала экзамен и получение лицензии. Потом бросаешь.</h2>
+      <p class="lead">К отказу от курения мы относимся примерно как к экзамену на права.</p>
+    </div>
+    <div class="lic-grid">
+      <div class="lic-card">
+        <img src="img/licenziya.jpg" width="1536" height="1024" loading="lazy" alt="Лицензия на право бросать курить: образец">
+        <div class="lic-cap"><span>ОБРАЗЕЦ ЛИЦЕНЗИИ</span><span>ДЕЙСТВУЕТ: БЕССРОЧНО</span></div>
+      </div>
+      <div class="stack">
+        <p class="muted">За рулём важно не разбиться. С никотиновой зависимостью так же: нужно знать, что есть что, как всё работает, какие взаимосвязи, причины и последствия. Тогда ты можешь этим управлять.</p>
+        <ol class="steps">
+          <li><span class="n">1</span><div><h3>Проходишь обучение</h3><p>Биология, психология, свой список «Зачем».</p></div></li>
+          <li><span class="n">2</span><div><h3>Сдаёшь экзамен</h3><p>Экзамен работает как индикатор. Он показывает, хватает ли тебе знаний, чтобы попытка сработала.</p></div></li>
+          <li class="gold"><span class="n">3</span><div><h3>Получаешь лицензию</h3><p>Лицензия на право бросать курить. Она подтверждает, что ты прошёл обучение, сдал экзамен и готов управлять своей никотиновой зависимостью.</p></div></li>
+          <li><span class="n">4</span><div><h3>Выбираешь свой вечер</h3><p>Дату заранее не назначаем. После экзамена находишь комфортный вечер и проводишь День Х.</p></div></li>
+        </ol>
+        <div class="honest"><b>Честно:</b> на права не у всех получается с первого раза. Здесь тоже. Но без подготовки ты можешь долбиться об стену десятки раз, как было у меня, а с подготовкой можно успешно бросить курить навсегда со второго или третьего раза.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- БЛОК 5. КАК НЕ СОРВАТЬСЯ -->
+<section id="ne-sryvatsya" class="tight">
+  <div class="wrap stack-l">
+    <div class="stack narrow">
+      <span class="label">Часть 2 · Закрытое сообщество</span>
+      <h2>Как не сорваться</h2>
+      <div class="thesis">
+        <p><span>Бросить курить:</span> <b class="ev">событие.</b></p>
+        <p><span>Выйти из зависимости:</span> <b class="pr">процесс.</b></p>
+      </div>
+      <p class="lead">Закрытое сообщество существует именно для второго.</p>
+    </div>
+    <div class="duo">
+      <div class="duo-card">
+        <span class="label">Событие</span>
+        <div class="big">1 вечер</div>
+        <p class="muted">Сигарету можно не закурить за одну секунду. Решение принимается один раз, в твой День Х.</p>
+      </div>
+      <div class="duo-card process">
+        <span class="label">Процесс</span>
+        <div class="big">время</div>
+        <p class="muted">Привычка складывалась годами. Мозгу нужно время, чтобы перестроить старые автоматические реакции и закрепить новые.</p>
+      </div>
+    </div>
+
+    <div class="stack narrow">
+      <p class="lead">После Дня Х наступает обычная жизнь:</p>
+      <div class="life" aria-label="Ситуации из обычной жизни">
+        <span>стресс</span><span>кофе</span><span>вечеринка</span><span>скука</span><span>усталость</span><span>алкоголь у друзей</span><span>знакомая компания</span><span>конфликт</span><span>запах сигарет</span><span>старый ритуал</span>
+      </div>
+      <p class="lead">Раньше в такой момент срабатывала старая связка:</p>
+      <div class="chain" aria-label="Старая связка"><span>ситуация</span><i>→</i><span>сигарета</span><i>→</i><span>облегчение</span></div>
+      <p class="lead">В сообществе мы вместе ставим на её место новую:</p>
+      <div class="chain new" aria-label="Новая связка"><span>ситуация</span><i>→</i><span>новая реакция</span><i>→</i><span>свобода</span></div>
+    </div>
+
+    <div class="gym">
+      <blockquote>Представь человека, который один раз сходил в спортзал, узнал идеальную технику всех упражнений и сказал: «Ну всё, теперь я в форме».</blockquote>
+      <div class="stack">
+        <span class="label">Звучит смешно</span>
+        <p class="lead">Потому что знание упражнения и результат от упражнения: разные вещи.</p>
+        <p class="muted">С зависимостью похожая история. Понять, как она устроена, можно за несколько дней. Сделать новое поведение привычным помогает время и среда.</p>
+      </div>
+    </div>
+
+    <div class="value">
+      <div class="stack">
+        <span class="label">Главное после отказа</span>
+        <h2 style="font-size:clamp(24px,3.2vw,36px)">Сбросить ценность сигареты</h2>
+        <p class="lead">Бросить: это только начало. Дальше мы держим твой фокус на том, что ты некурящий человек, и шаг за шагом снимаем с сигареты ценность, пока она не обесценится совсем.</p>
+        <p class="muted">Для этого подготовлена долгосрочная программа. После отказа ты продолжаешь изучать никотиновую зависимость: как она устроена, как работает и почему ты от неё ушёл. Что-то вроде повышения квалификации, только результат здесь твоя свобода.</p>
+      </div>
+      <div class="loop">
+        <div class="loop-head"><span>Каждые 2-3 дня</span><span aria-hidden="true">↻</span></div>
+        <ol>
+          <li><span class="n">1</span><div><h3>Новая порция материала</h3><p>Видео, статьи, истории и обучающие уроки.</p></div></li>
+          <li><span class="n">2</span><div><h3>Короткий тест</h3><p>Проверка, что информация действительно усвоилась.</p></div></li>
+          <li><span class="n">3</span><div><h3>Закрепление</h3><p>Нейронные связи некурящего человека становятся крепче, а у сигареты остаётся всё меньше ценности.</p></div></li>
+        </ol>
+        <p class="loop-foot">Всё приходит в Telegram-боте. Отмечаешь день, когда бросил, и бот ведёт отчёт и сам присылает новые материалы.</p>
+      </div>
+    </div>
+    <p class="key">В этом и ценность сообщества: ты не просто бросил. <span>Ты не срываешься, потому что всё время остаёшься в теме.</span></p>
+
+    <div class="route-box">
+      <div class="stack narrow">
+        <span class="label">Маршрут</span>
+        <h2 style="font-size:clamp(22px,3vw,32px)">Где работает обучение, а где сообщество</h2>
+      </div>
+      <div class="route" role="list" aria-label="Маршрут выхода из зависимости">
+        <div class="zone zone-edu" aria-hidden="true">Обучение</div>
+        <div class="zone zone-club" aria-hidden="true">Закрытое сообщество<small>с последней сигареты</small></div>
+        <div class="route-line" aria-hidden="true"></div>
+        <div class="st st1" role="listitem"><span class="dot">1</span><span class="tx"><span class="tag">обучение</span><b>Понял зависимость</b></span></div>
+        <div class="st st2" role="listitem"><span class="dot">2</span><span class="tx"><span class="tag">обучение</span><b>Перестал курить</b></span></div>
+        <div class="st st3" role="listitem"><span class="dot">3</span><span class="tx"><span class="tag">сообщество</span><b>Встретил обычную жизнь</b></span></div>
+        <div class="st st4" role="listitem"><span class="dot">4</span><span class="tx"><span class="tag">сообщество</span><b>Переписал реакции</b></span></div>
+        <div class="st st5" role="listitem"><span class="dot">5</span><span class="tx"><span class="tag">сообщество</span><b>Закрепил</b></span></div>
+        <div class="st st6" role="listitem"><span class="dot">6</span><span class="tx"><span class="tag">цель</span><b>Никотин потерял значение</b></span></div>
+      </div>
+      <div class="route-legend">
+        <div class="rl rl-edu"><b>Обучение</b><p>Понимаешь, как устроена зависимость, сдаёшь экзамен и бросаешь. Без ломки.</p></div>
+        <div class="rl rl-club"><b>Сообщество · с последней сигареты</b><p>Каждые 2-3 дня новые материалы и тесты. Нейронные связи некурящего человека крепнут, а намерение становится только сильнее. Если выйти раньше времени, это подкрепление остановится, и сорваться станет проще.</p></div>
+      </div>
+      <p class="muted" style="margin-top:22px;max-width:62ch">Цель не в том, чтобы каждый день держаться. Цель в том, чтобы жизнь без никотина стала обычным состоянием, а не ежедневным достижением.</p>
+    </div>
+
+    <div class="slip">
+      <div class="stack">
+        <span class="label">Если срыв всё-таки был</span>
+        <h2 style="font-size:clamp(22px,3vw,32px)">Это не возврат к началу</h2>
+        <p class="muted">Всё, что ты понял, остаётся с тобой. Разбираем, какая ситуация сработала, возвращаемся к твоему «Зачем» и снова бросаем. Уже с этим знанием, чтобы в этот раз закрепиться.</p>
+        <div class="honest slip-note"><b>На права тоже не все сдают с первого раза.</b> С подготовкой сдают со второго или третьего.</div>
+      </div>
+      <img class="frame" src="img/ne-sryvatsya.jpg" width="1600" height="900" loading="lazy" alt="Люди вместе идут по тропе вдоль озера к горам">
+    </div>
+  </div>
+</section>
+
+<!-- БЛОК 6. СКОЛЬКО БЫТЬ ВНУТРИ -->
+<section class="tight">
+  <div class="wrap stay">
+    <!-- МЕСТО ПОД 3D-ВСТАВКУ С ПРОЗРАЧНЫМ ФОНОМ (закажем отдельно) -->
+    <span class="label">Сколько быть внутри</span>
+    <h2>Мы не продаём тебе «курс на год»</h2>
+    <p class="lead">Кто-то почувствует, что полностью отпустило, довольно быстро. Кому-то понадобится больше времени. Ты остаёшься внутри столько, сколько чувствуешь в этом пользу.</p>
+    <p class="quote">После обучения ты не остаёшься один на один с обычной жизнью.</p>
+    <div class="worth">
+      <div class="worth-row">
+        <div class="w-nic"><small>Никотин за месяц</small><b>Сигареты, стики или вейп</b></div>
+        <span class="worth-vs">vs</span>
+        <div class="w-club"><small>Сообщество за месяц</small><b>В разы дешевле</b></div>
+      </div>
+      <p>Месяц в сообществе стоит в разы меньше, чем уходило на никотин. <b>Поэтому в любом случае ты только в плюсе.</b> Пока чувствуешь пользу, оставайся и забирай её по полной.</p>
+    </div>
+    <p class="muted">Подписка ежемесячная. Отменить можно в любой момент.</p>
+  </div>
+</section>
+
+<!-- БЛОК 7. КТО ВЕДЁТ -->
+<section class="tight">
+  <div class="wrap author">
+    <img src="img/artur.jpg" width="900" height="1200" loading="lazy" alt="Артур Лето, автор Свежего Вздоха">
+    <div class="stack">
+      <span class="label">Кто ведёт</span>
+      <h2>Я прошёл этот путь сам</h2>
+      <p class="muted">Меня зовут Артур. Я курил 24 года и бросал больше двадцати раз. Пробовал силу воли, пластыри, жвачки, вейп вместо сигарет. Каждый раз думал, что дело во мне.</p>
+      <p class="muted">Дело было не во мне. Я просто не понимал, как эта штука устроена изнутри. Последние три раза я бросал без ломки. 18 июня 2025 года я написал на листе бумаги, что больше не курю, сфотографировался с ним и сжёг его.</p>
+      <p class="muted">В Свежем Вздохе собрано всё, что сработало.</p>
+      <div class="facts">
+        <div><b>24</b><span>года курил</span></div>
+        <div><b>20+</b><span>попыток бросить</span></div>
+        <div><b>18.06.25</b><span>последняя сигарета</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- БЛОК 7.5. СТАРЫЕ ФОТО (карусель) -->
+<section class="tight">
+  <div class="wrap past">
+    <div class="stack narrow">
+      <span class="label">Это правда я</span>
+      <h2>Я реальный человек. И я правда курил с 14 лет</h2>
+      <p class="muted">Это мои старые фотографии, из тех лет, когда сигарета была со мной везде: дома, на улице, с друзьями. Сейчас я не курю с 18 июня 2025 года.</p>
+      <p class="muted">Последние лет десять я старался не фотографироваться с сигаретой в руках. Я начал вести соцсети и не хотел выкладывать такие фото, чтобы не пропагандировать курение. Поэтому найти снимки, где я курю, было очень сложно. Всем им больше 10 лет.</p>
+    </div>
+    <div class="car" data-car>
+      <div class="car-track" aria-label="Старые фотографии Артура с сигаретой">
+        <figure class="car-slide"><img class="bg" src="img/past/past-1.jpg" alt="" aria-hidden="true"><img class="fg" src="img/past/past-1.jpg" width="1200" height="900" alt="Артур с сигаретой у машины, старое фото"></figure>
+        <figure class="car-slide"><img class="bg" src="img/past/past-2.jpg" alt="" aria-hidden="true" loading="lazy"><img class="fg" src="img/past/past-2.jpg" width="1200" height="900" loading="lazy" alt="Артур затягивается сигаретой, старое фото"></figure>
+        <figure class="car-slide"><img class="bg" src="img/past/past-3.jpg" alt="" aria-hidden="true" loading="lazy"><img class="fg" src="img/past/past-3.jpg" width="1200" height="900" loading="lazy" alt="Артур прикуривает сигарету, старое фото"></figure>
+        <figure class="car-slide"><img class="bg" src="img/past/past-4.jpg" alt="" aria-hidden="true" loading="lazy"><img class="fg" src="img/past/past-4.jpg" width="1200" height="900" loading="lazy" alt="Артур с сигаретой на детской площадке, старое фото"></figure>
+        <figure class="car-slide"><img class="bg" src="img/past/past-5.jpg" alt="" aria-hidden="true" loading="lazy"><img class="fg" src="img/past/past-5.jpg" width="900" height="1200" loading="lazy" alt="Артур с пачками сигарет в руках, старое фото"></figure>
+        <figure class="car-slide"><img class="bg" src="img/past/past-6.jpg" alt="" aria-hidden="true" loading="lazy"><img class="fg" src="img/past/past-6.jpg" width="1200" height="900" loading="lazy" alt="Артур с сигаретой в баре, старое фото"></figure>
+        <figure class="car-slide"><img class="bg" src="img/past/past-7.jpg" alt="" aria-hidden="true" loading="lazy"><img class="fg" src="img/past/past-7.jpg" width="900" height="1200" loading="lazy" alt="Артур с сигаретой в ярком свитере, старое фото"></figure>
+        <figure class="car-slide"><img class="bg" src="img/past/past-8.jpg" alt="" aria-hidden="true" loading="lazy"><img class="fg" src="img/past/past-8.jpg" width="1200" height="900" loading="lazy" alt="Артур с сигаретой за столом, старое фото"></figure>
+      </div>
+      <button class="car-btn car-prev" type="button" aria-label="Предыдущее фото">‹</button>
+      <button class="car-btn car-next" type="button" aria-label="Следующее фото">›</button>
+      <div class="car-dots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- БЛОК 8. ЦЕНА (динамическая, как на старом сайте) -->
+<section class="price-sec" id="cena">
+  <div class="wrap stack-l">
+    <!-- КАРТИНКА: для цены закажем во второй пачке. Пока стоит пример Артура -->
+    <img class="frame" src="img/cena.jpg" width="1600" height="900" loading="lazy" alt="Про цену Свежего Вздоха">
+    <div class="stack narrow">
+      <span class="label">Про цену</span>
+      <h2>Честно про цену</h2>
+      <p class="lead">Полная цена программы 4 900 ₽ в месяц.<br>Для тех, кто принимает решение быстро, цена будет с большой скидкой. Отсчёт идёт с твоего первого захода, и цена не возвращается обратно.</p>
+    </div>
+    <div class="price-grid">
+      <div class="pbox bad">
+        <span class="t">Сигареты забирают каждый месяц</span>
+        <span class="sum">6 000 ₽/мес</span>
+        <span style="color:#9FB6CF;font-size:15px">Эти деньги останутся у тебя.</span>
+      </div>
+      <div class="pbox good">
+        <span class="t">Свежий Вздох сейчас</span>
+        <span class="was" id="price-was">4 900 ₽/мес</span>
+        <span class="now"><span id="price-now">450 ₽</span><small> /мес</small></span>
+      </div>
+    </div>
+    <div class="timer" id="timer-row">Через <span class="clock js-clock">00:00:00</span> цена станет <b id="next-price">500 ₽/мес</b></div>
+    <div class="buy-row">
+      <a class="btn btn-gold js-buy" href="https://t.me/tribute/app?startapp=s14Xv" target="_blank" rel="noopener">Купить билет в Свежий Вздох →</a>
+      <span class="note js-note">450 ₽ в месяц · отменить в любой момент</span>
+    </div>
+    <ol class="ladder" id="ladder">
+      <li id="t0"><span class="w">первый час</span><span>Готов и действуешь сразу</span><span class="p">450 ₽/мес</span></li>
+      <li id="t1"><span class="w">до 12 часов</span><span>Думаешь, но недолго</span><span class="p">500 ₽/мес</span></li>
+      <li id="t2"><span class="w">до 3 дней 12 ч</span><span>Откладываешь, но ещё думаешь</span><span class="p">990 ₽/мес</span></li>
+      <li id="t3"><span class="w">до 11 дней 12 ч</span><span>Откладываешь на потом</span><span class="p">1 450 ₽/мес</span></li>
+      <li id="t4"><span class="w">дальше</span><span>Полная цена программы</span><span class="p">4 900 ₽/мес</span></li>
+    </ol>
+  </div>
+</section>
+
+<!-- БЛОК 9. ГАРАНТИЯ -->
+<section>
+  <div class="wrap">
+    <div class="guar">
+      <div class="seal" aria-hidden="true"><div><b>3</b>дня</div></div>
+      <div class="stack" style="gap:8px">
+        <h2 style="font-size:clamp(22px,3vw,32px)">Гарантия 3 дня</h2>
+        <p class="muted">Ты ничего не теряешь. Зайди и посмотри. Если поймёшь, что не твоё, напиши Артуру в течение 3 дней. Вернём 100% без вопросов.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- БЛОК 10. КУПИ БИЛЕТ -->
+<section class="ticket-sec" id="bilet">
+  <div class="wrap stack-l">
+    <div class="stack narrow">
+      <span class="label">Главное</span>
+      <h2>«Купи билет»</h2>
+    </div>
+
+    <div class="tk-rows">
+      <div class="stack">
+        <p class="tk-text">Знаешь, как говорят: если долго откладываешь поездку в другую страну, просто купи билет. И ты полетишь, потому что уже купил.</p>
+        <div><a class="btn btn-gold js-buy" href="https://t.me/tribute/app?startapp=s14Xv" target="_blank" rel="noopener">Купи билет в Свежий Вздох →</a></div>
+      </div>
+      <div class="ticket" aria-label="Билет в Свежий Вздох">
+        <div class="tk-main">
+          <div class="tk-top"><b>Свежий Вздох</b><span>ПОСАДОЧНЫЙ ТАЛОН</span></div>
+          <div class="tk-route">
+            <div><small>Откуда</small><b>Курю</b></div>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></svg>
+            <div class="to"><small>Куда</small><b>Жизнь без никотина</b></div>
+          </div>
+          <div class="tk-f">
+            <div><small>Пассажир</small><b>Ты</b></div>
+            <div><small>Вылет</small><b>Твой вечер после экзамена</b></div>
+            <div><small>Класс</small><b>Без ломки</b></div>
+            <div><small>Выход</small><b>Закрытое сообщество</b></div>
+          </div>
+        </div>
+        <div class="tk-stub"><span>ВЗДОХ</span><div class="code" aria-hidden="true"></div><span>1 ПАСС</span></div>
+      </div>
+    </div>
+
+    <div class="tk-rows rev">
+      <p class="tk-text">Вот это и есть твой билет. Билет в жизнь, где ты не куришь. Где каждый твой вздох свежий. Где ты гордишься собой. Где твои близкие гордятся тобой.</p>
+      <img class="frame" src="img/gordost.jpg" width="1600" height="900" loading="lazy" alt="Человек на вершине над озером раскрыл руки навстречу солнцу">
+    </div>
+
+    <div class="tk-rows">
+      <div class="stack">
+        <p class="tk-text">После того как «купил билет», тебе просто остаётся делать:</p>
+        <ul class="checklist">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Изучать уроки</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Сдать экзамен и получить лицензию</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Выбрать свой вечер, День Х</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Медитация: бросить курить</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Закреплять новые нейронные связи</li>
+          <li class="fin"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Ты некурящий человек</li>
+        </ul>
+      </div>
+      <div class="tk-cta">
+        <a class="btn btn-gold js-buy" href="https://t.me/tribute/app?startapp=s14Xv" target="_blank" rel="noopener">Купить билет →</a>
+        <span class="note js-note">450 ₽ в месяц · отменить в любой момент</span>
+        <p class="muted">Мы уже собрались. Одному не вариант. Вместе другое дело.</p>
+        <p class="slogan">Обрети свободу от никотиновой зависимости</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- БЛОК 11. ВИДЕО (грузится только по клику) -->
+<section id="video">
+  <div class="wrap vid">
+    <div class="stack vid-head">
+      <span class="label">Видео</span>
+      <h2>Посмотри это видео. <em>Даже если уже смотрел.</em></h2>
+      <p class="lead">Посмотри ещё раз. Теперь ты увидишь в нём больше.</p>
+    </div>
+    <a class="vid-box js-yt" href="https://youtu.be/Kjk1v2AhMHs" data-id="Kjk1v2AhMHs" target="_blank" rel="noopener" aria-label="Смотреть видео: Я курил 24 года. Вот как я бросил без ломки и стресса">
+      <img src="img/video-poster.jpg" width="1280" height="720" loading="lazy" alt="">
+      <span class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+    </a>
+
+    <div class="vid-text">
+      <p class="vid-big">Бросить курить максимально просто, если знать биохимию. Без ломки. <span>Но вся суть в том, чтобы не сорваться.</span></p>
+      <p>Поэтому нужен комплекс мер, и каждый элемент мы разбираем максимально подробно. Биохимию тоже. Мало знать, что есть никотин, ацетилхолин и дофамин и что они связаны между собой. Знаний там намного больше: они глубже, фундаментальнее и шире.</p>
+
+      <h3>После видео ты правда можешь пойти и бросить</h3>
+      <p>Бросить можно когда угодно. Попробуй. Если не получится, не сдавайся. Приходи сюда: здесь есть всё, чтобы бросить.</p>
+      <p>Единственное, что нужно, это изучить информацию внутри сообщества. Алгоритм точный и конкретный, но каждый его шаг раскрыт очень подробно. Чтобы ты делал каждый шаг уверенно.</p>
+
+      <h3>Потом экзамен</h3>
+      <p>Изучить ещё не значит усвоить. Показатель тут один: экзамен. Он и говорит, что ты действительно всё понял и принял.</p>
+      <div class="honest slip-note"><b>После экзамена дай себе пару-тройку попыток. Это нормально.</b> На права тоже сдают не всегда с первого раза, обычно со второго или третьего. И даже с правами за рулём бывают ошибки. Две, три, четыре, пять попыток: позволь себе это. В конце концов, на кону твоё здоровье.</div>
+      <p>У меня было больше 15 безуспешных попыток, пока у меня не было этих знаний.</p>
+      <p>Бывает, человек садится за руль и сразу водит отлично, будто учился всю жизнь. Так и тут: многие бросают сами. Просто захотели и бросили. Но не все люди такие, и многим нужна именно помощь.</p>
+      <p class="vid-fin">Эту помощь ты получишь в сообществе «Свежий Вздох».</p>
+      <div><a class="btn btn-gold js-buy" href="https://t.me/tribute/app?startapp=s14Xv" target="_blank" rel="noopener">Купи билет в Свежий Вздох →</a></div>
+    </div>
+
+    <div class="diag-box">
+      <p><b>Ещё не проходил диагностику?</b> Жми на кнопку и пройди её. Это бесплатно и займёт 3 минуты.</p>
+      <a class="btn btn-main" href="https://t.me/SvezhiyVzdohBot?start=gotov" target="_blank" rel="noopener">Пройти диагностику <small>бесплатно · 3 мин</small></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>«Свежий Вздох» · помощь при отказе от курения · Артур Лето</span>
+    <span><a href="https://instagram.com/leto.s.v" target="_blank" rel="noopener">Instagram @leto.s.v</a> · <a href="https://t.me/SvezhiyVzdohBot?start=site_zaglushka" target="_blank" rel="noopener">Telegram @SvezhiyVzdohBot</a></span>
+  </div>
+</footer>
+
+<div class="sticky" id="sticky" aria-label="Текущая цена">
+  <div class="sp"><b id="sticky-price">450 ₽/мес</b><span class="js-clock">00:00:00</span></div>
+  <a class="btn btn-gold js-buy" href="https://t.me/tribute/app?startapp=s14Xv" target="_blank" rel="noopener">Купить билет</a>
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Свежий Вздох","alternateName":"Svezhiy Vzdoh","url":"https://svezhiy-vzdoh.ru/",
+ "description":"Обучение и закрытое сообщество: как бросить курить без ломки и как не сорваться.",
+ "sameAs":["https://t.me/SvezhiyVzdohBot","https://instagram.com/leto.s.v"]}
+</script>
+
+<script>
+/* Лестница цен как на старом сайте (gotov/club): отсчёт от первого захода */
+(function(){
+  var H = 3600000, KEY = 'sv_site_price_v1';
+  var TIERS = [
+    {until:1*H,   price:'450 ₽/мес',   now:'450 ₽',   link:'https://t.me/tribute/app?startapp=s14Xv'},
+    {until:12*H,  price:'500 ₽/мес',   now:'500 ₽',   link:'https://t.me/tribute/app?startapp=s14Xy'},
+    {until:84*H,  price:'990 ₽/мес',   now:'990 ₽',   link:'https://t.me/tribute/app?startapp=sVVm'},
+    {until:276*H, price:'1 450 ₽/мес', now:'1 450 ₽', link:'https://t.me/tribute/app?startapp=s11nv'},
+    {until:Infinity, price:'4 900 ₽/мес', now:'4 900 ₽', link:'https://t.me/tribute/app?startapp=s11nx'}
+  ];
+  var start = Date.now();
+  try {
+    var saved = parseInt(localStorage.getItem(KEY), 10);
+    if (saved && saved <= Date.now()) start = saved; else localStorage.setItem(KEY, String(start));
+  } catch (e) {}
+
+  function pad(n){ return (n < 10 ? '0' : '') + n; }
+  function fmt(ms){
+    var s = Math.max(0, Math.floor(ms/1000)), d = Math.floor(s/86400), h = Math.floor(s%86400/3600), m = Math.floor(s%3600/60), x = s%60;
+    return (d ? d + 'д ' : '') + pad(h) + ':' + pad(m) + ':' + pad(x);
+  }
+  function $(id){ return document.getElementById(id); }
+  var buys = document.querySelectorAll('.js-buy'), clocks = document.querySelectorAll('.js-clock'), notes = document.querySelectorAll('.js-note');
+
+  function tick(){
+    var e = Date.now() - start, i = 0;
+    while (i < TIERS.length - 1 && e >= TIERS[i].until) i++;
+    var t = TIERS[i], last = i === TIERS.length - 1, k;
+    $('price-now').textContent = t.now;
+    $('sticky-price').textContent = t.price;
+    $('price-was').style.display = last ? 'none' : '';
+    for (k = 0; k < notes.length; k++) notes[k].textContent = t.price.replace('/мес', ' в месяц') + ' · отменить в любой момент';
+    for (k = 0; k < buys.length; k++) buys[k].href = t.link;
+    for (k = 0; k < TIERS.length; k++) $('t' + k).className = k < i ? 'past' : (k === i ? 'on' : '');
+    var left = last ? 'полная цена' : fmt(t.until - e);
+    for (k = 0; k < clocks.length; k++) clocks[k].textContent = left;
+    $('timer-row').style.display = last ? 'none' : '';
+    if (!last) $('next-price').textContent = TIERS[i+1].price;
+  }
+  tick(); setInterval(tick, 1000);
+
+  /* Липкая панель: после первого экрана, прячется у блока цены и билета */
+  var sticky = $('sticky');
+  if ('IntersectionObserver' in window) {
+    var heroGone = false, inBuy = {};
+    var upd = function(){ var hide = false; for (var key in inBuy) if (inBuy[key]) hide = true; sticky.classList.toggle('show', heroGone && !hide); };
+    new IntersectionObserver(function(en){ heroGone = !en[0].isIntersecting; upd(); }).observe($('hero'));
+    ['cena','bilet'].forEach(function(id){
+      new IntersectionObserver(function(en){ inBuy[id] = en[0].isIntersecting; upd(); }, {threshold:.1}).observe($(id));
+    });
+  }
+
+  /* Метрика: клик на оплату */
+  for (var b = 0; b < buys.length; b++) buys[b].addEventListener('click', function(){
+    try { window.ym && ym(110722782, 'reachGoal', 'pay_click'); } catch (e) {}
+  });
+})();
+</script>
+
+<script>
+/* Видео: вместо тяжёлого плеера сначала обложка, YouTube грузится по клику */
+(function(){
+  var v = document.querySelector('.js-yt'); if (!v) return;
+  v.addEventListener('click', function(e){
+    e.preventDefault();
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + v.getAttribute('data-id') + '?autoplay=1&rel=0';
+    f.title = 'Я курил 24 года. Вот как я бросил без ломки и стресса';
+    f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+    f.allowFullscreen = true;
+    v.innerHTML = ''; v.appendChild(f); v.removeAttribute('href');
+    try { window.ym && ym(110722782, 'reachGoal', 'video_play'); } catch (err) {}
+  });
+})();
+
+/* Карусель старых фото: листается сама раз в 5 секунд, пальцем и стрелками */
+(function(){
+  var car = document.querySelector('[data-car]'); if (!car) return;
+  var track = car.querySelector('.car-track'), n = track.children.length, dots = car.querySelector('.car-dots');
+  var i = 0, timer = null, visible = false, paused = false;
+  for (var k = 0; k < n; k++) (function(k){
+    var d = document.createElement('button'); d.type = 'button'; d.setAttribute('aria-label', 'Фото ' + (k + 1));
+    d.addEventListener('click', function(){ go(k); restart(); }); dots.appendChild(d);
+  })(k);
+  function mark(){ for (var k = 0; k < n; k++) dots.children[k].classList.toggle('on', k === i); }
+  function go(k){ i = (k + n) % n; track.scrollTo({left: i * track.clientWidth, behavior: 'smooth'}); mark(); }
+  function tick(){ if (visible && !paused && !document.hidden) go(i + 1); }
+  function restart(){ clearInterval(timer); timer = setInterval(tick, 5000); }
+  track.addEventListener('scroll', function(){
+    var k = Math.round(track.scrollLeft / track.clientWidth); if (k !== i) { i = k; mark(); }
+  }, {passive: true});
+  car.querySelector('.car-prev').addEventListener('click', function(){ go(i - 1); restart(); });
+  car.querySelector('.car-next').addEventListener('click', function(){ go(i + 1); restart(); });
+  car.addEventListener('mouseenter', function(){ paused = true; });
+  car.addEventListener('mouseleave', function(){ paused = false; });
+  track.addEventListener('touchstart', restart, {passive: true});
+  if ('IntersectionObserver' in window) new IntersectionObserver(function(en){ visible = en[0].isIntersecting; }, {threshold: .3}).observe(car);
+  else visible = true;
+  mark(); restart();
+})();
+</script>
+
+<!-- Yandex.Metrika counter 110722782 -->
+<script>
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}
+  k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");
+  ym(110722782,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/110722782" style="position:absolute;left:-9999px" alt=""></div></noscript>
+</body>
+</html>
