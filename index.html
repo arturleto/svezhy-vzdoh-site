@@ -154,6 +154,8 @@ section{padding-block:clamp(56px,8vw,104px)}
 .honest{background:var(--gold-t);border-radius:var(--r-s);padding:20px 22px;border:1px solid #F1DDA8;color:#4A3A12}
 .honest b{color:#3A2600}
 .slip-note{border-left:6px solid var(--gold);font:600 clamp(17px,2vw,19px)/1.5 var(--f-body)}
+.lic-wide{max-width:none;width:100%}
+.lic-intro{margin-top:-14px}
 @media (max-width:900px){.lic-grid{grid-template-columns:1fr}}
 
 /* событие / процесс */
@@ -165,6 +167,9 @@ section{padding-block:clamp(56px,8vw,104px)}
 @media (max-width:720px){.duo{grid-template-columns:1fr}}
 .life{display:flex;flex-wrap:wrap;gap:8px}
 .life span{font-weight:700;font-size:15px;padding:8px 14px;border-radius:10px;background:var(--white);border:1px solid var(--line);color:var(--ink)}
+.life .joy{background:var(--gold-t);border-color:#F1DDA8;color:#4A3A12}
+.life-note{margin:4px 0 0;padding:18px 22px;border-left:6px solid var(--azure);background:var(--white);border-radius:0 var(--r-s) var(--r-s) 0;font-size:clamp(16px,1.9vw,18px);line-height:1.55;color:var(--ink-2)}
+.life-note b{color:var(--ink)}
 .chain{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font:600 clamp(15px,2vw,18px)/1 var(--f-mono)}
 .chain span{padding:12px 16px;border-radius:12px;background:var(--white);border:1.5px dashed #A9C6E2;color:var(--ink-2)}
 .chain i{font-style:normal;color:var(--ink-3)}
@@ -481,22 +486,22 @@ footer a{color:var(--ink-2);text-decoration:none;font-weight:700}
       <h2>Сначала экзамен и получение лицензии. Потом бросаешь.</h2>
       <p class="lead">К отказу от курения мы относимся примерно как к экзамену на права.</p>
     </div>
+    <p class="lead lic-wide lic-intro">За рулём важно не разбиться. С никотиновой зависимостью так же: нужно знать, что есть что, как всё работает, какие взаимосвязи, причины и последствия. Тогда ты можешь этим управлять.</p>
     <div class="lic-grid">
       <div class="lic-card">
         <img src="img/licenziya.jpg" width="1536" height="1024" loading="lazy" alt="Лицензия на право бросать курить: образец">
         <div class="lic-cap"><span>ОБРАЗЕЦ ЛИЦЕНЗИИ</span><span>ДЕЙСТВУЕТ: БЕССРОЧНО</span></div>
       </div>
       <div class="stack">
-        <p class="muted">За рулём важно не разбиться. С никотиновой зависимостью так же: нужно знать, что есть что, как всё работает, какие взаимосвязи, причины и последствия. Тогда ты можешь этим управлять.</p>
         <ol class="steps">
           <li><span class="n">1</span><div><h3>Проходишь обучение</h3><p>Биология, психология, свой список «Зачем».</p></div></li>
           <li><span class="n">2</span><div><h3>Сдаёшь экзамен</h3><p>Экзамен работает как индикатор. Он показывает, хватает ли тебе знаний, чтобы попытка сработала.</p></div></li>
           <li class="gold"><span class="n">3</span><div><h3>Получаешь лицензию</h3><p>Лицензия на право бросать курить. Она подтверждает, что ты прошёл обучение, сдал экзамен и готов управлять своей никотиновой зависимостью.</p></div></li>
           <li><span class="n">4</span><div><h3>Выбираешь свой вечер</h3><p>Дату заранее не назначаем. После экзамена находишь комфортный вечер и проводишь День Х.</p></div></li>
         </ol>
-        <div class="honest"><b>Честно:</b> на права не у всех получается с первого раза. Здесь тоже. Но без подготовки ты можешь долбиться об стену десятки раз, как было у меня, а с подготовкой можно успешно бросить курить навсегда со второго или третьего раза.</div>
       </div>
     </div>
+    <div class="honest lic-wide"><b>Честно:</b> на права не у всех получается с первого раза. Здесь тоже. Но без подготовки ты можешь долбиться об стену десятки раз, как было у меня, а с подготовкой можно успешно бросить курить навсегда со второго или третьего раза.</div>
   </div>
 </section>
 
@@ -528,8 +533,9 @@ footer a{color:var(--ink-2);text-decoration:none;font-weight:700}
     <div class="stack narrow">
       <p class="lead">После Дня Х наступает обычная жизнь:</p>
       <div class="life" aria-label="Ситуации из обычной жизни">
-        <span>стресс</span><span>кофе</span><span>вечеринка</span><span>скука</span><span>усталость</span><span>алкоголь у друзей</span><span>знакомая компания</span><span>конфликт</span><span>запах сигарет</span><span>старый ритуал</span>
+        <span>стресс</span><span class="joy">день рождения с друзьями</span><span>кофе</span><span class="joy">шашлыки на даче</span><span>скука</span><span class="joy">выезд на море</span><span>усталость</span><span class="joy">празднование Нового года</span><span>вечеринка</span><span>алкоголь у друзей</span><span>знакомая компания</span><span>конфликт</span><span>запах сигарет</span><span>старый ритуал</span>
       </div>
+      <p class="life-note">Заядлому курильщику хочется курить одинаково в любом состоянии. Когда стресс и всё плохо, хочется закурить. Когда ты расслаблен и всё прекрасно, тоже хочется закурить. <b>Это и есть обычная жизнь, и поводы закурить в ней будут всегда. Поэтому нет смысла ждать идеальный период, чтобы бросить.</b></p>
       <p class="lead">Раньше в такой момент срабатывала старая связка:</p>
       <div class="chain" aria-label="Старая связка"><span>ситуация</span><i>→</i><span>сигарета</span><i>→</i><span>облегчение</span></div>
       <p class="lead">В сообществе мы вместе ставим на её место новую:</p>
