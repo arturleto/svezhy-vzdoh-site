@@ -107,8 +107,11 @@ section{padding-block:clamp(56px,8vw,104px)}
 .q.two p{color:#C9DDF2}
 .q.two .go{color:var(--gold)}
 @media (max-width:720px){.qs{grid-template-columns:1fr}}
-.formula{font:700 clamp(19px,2.3vw,24px)/1.4 var(--f-body);max-width:46ch}
-.formula span{color:var(--azure-d)}
+.formula{width:100%;max-width:900px;margin:clamp(24px,4vw,48px) auto 0;align-self:center;text-align:center}
+.formula p{margin:0}
+.formula-big{font:800 clamp(26px,4.2vw,46px)/1.2 var(--f-disp);color:var(--ink)}
+.formula-big span{color:var(--azure)}
+.formula-sub{margin-top:clamp(12px,1.6vw,18px)!important;font:500 clamp(17px,2vw,21px)/1.45 var(--f-body);color:var(--ink-2)}
 
 /* метод: части обучения */
 .method{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;list-style:none;margin:0;padding:0}
@@ -434,7 +437,10 @@ footer a{color:var(--ink-2);text-decoration:none;font-weight:700}
         <span class="go">Как работает сообщество ↓</span>
       </a>
     </div>
-    <p class="formula">Бросить значит принять решение. <span>Не вернуться значит перестроиться.</span> Здесь есть всё и для первого, и для второго.</p>
+    <div class="formula">
+      <p class="formula-big">Бросить значит принять решение. <span>Не вернуться значит перестроиться.</span></p>
+      <p class="formula-sub">Здесь есть всё и для первого, и для второго.</p>
+    </div>
   </div>
 </section>
 
