@@ -268,9 +268,8 @@ section{padding-block:clamp(56px,8vw,104px)}
 .vid-big{font:700 clamp(20px,2.4vw,26px)/1.4 var(--f-body)!important;color:var(--ink)!important}
 .vid-big span{color:var(--azure-d)}
 .vid-fin{font:800 clamp(19px,2.2vw,23px)/1.35 var(--f-body);color:var(--ink)!important}
-.diag-box{width:100%;max-width:760px;background:var(--white);border:1px solid var(--line);border-radius:22px;padding:clamp(20px,3.5vw,30px);box-shadow:var(--shadow);display:flex;flex-direction:column;align-items:flex-start;gap:16px}
-.diag-box p{margin:0;font-size:18px;color:var(--ink-2)}
-.diag-box b{color:var(--ink)}
+.vid-diag{margin-top:-14px;font:400 15px/1.5 var(--f-body);color:var(--ink-3);text-align:center;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.vid-diag:hover{color:var(--azure)}
 @media (max-width:560px){.vid-play{width:66px;height:66px;margin:-33px 0 0 -33px}.vid-play svg{width:30px;height:30px}}
 
 /* карусель старых фото */
@@ -778,6 +777,7 @@ footer a{color:var(--ink-2);text-decoration:none;font-weight:700}
     <div class="vid-box">
       <iframe class="js-yt" src="https://www.youtube.com/embed/Kjk1v2AhMHs?rel=0" title="Я курил 24 года. Вот как я бросил без ломки и стресса" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
+    <a class="vid-diag" href="https://t.me/SvezhiyVzdohBot?start=gotov" target="_blank" rel="noopener">Если ещё не проходил диагностику, можешь пройти её, кликнув сюда.</a>
 
     <div class="vid-text">
       <p class="vid-big">Бросить курить без ломки максимально просто, если знать биохимию и поставить сильное намерение. <span>Но вся суть в том, чтобы не сорваться снова.</span></p>
@@ -795,11 +795,6 @@ footer a{color:var(--ink-2);text-decoration:none;font-weight:700}
       <p>Бывает, человек садится за руль и сразу водит отлично, будто учился всю жизнь. Так и тут: многие бросают сами. Просто захотели и бросили. Но не все люди такие, и многим нужна именно помощь.</p>
       <p class="vid-fin">Эту помощь ты получишь в сообществе «Свежий Вздох».</p>
       <div><a class="btn btn-gold js-buy" href="https://t.me/tribute/app?startapp=s14Xv" target="_blank" rel="noopener">Купи билет в Свежий Вздох →</a></div>
-    </div>
-
-    <div class="diag-box">
-      <p><b>Ещё не проходил диагностику?</b> Жми на кнопку и пройди её. Это бесплатно и займёт 3 минуты.</p>
-      <a class="btn btn-main" href="https://t.me/SvezhiyVzdohBot?start=gotov" target="_blank" rel="noopener">Пройти диагностику <small>бесплатно · 3 мин</small></a>
     </div>
   </div>
 </section>
