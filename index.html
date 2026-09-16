@@ -278,6 +278,10 @@ section{padding-block:clamp(56px,8vw,104px)}
 .vid-play{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border-radius:50%;background:var(--gold);display:grid;place-items:center;box-shadow:0 0 0 12px rgba(227,169,43,.3),0 14px 40px -10px rgba(0,0,0,.6);transition:transform .2s}
 .vid-play svg{width:38px;height:38px;fill:#3A2600;margin-left:5px}
 .vid-box:hover .vid-play{transform:scale(1.08)}
+.vid-tabs{display:flex;gap:8px;padding:5px;border-radius:16px;background:var(--white);border:1px solid var(--line);box-shadow:var(--shadow)}
+.vid-tab{border:0;border-radius:12px;padding:10px 20px;background:transparent;color:var(--ink-2);font:700 15px/1 var(--f-body);cursor:pointer}
+.vid-tab.on{background:linear-gradient(180deg,#2A8AE8,var(--azure-d));color:#fff}
+.vid-hint{margin:-14px 0 0;font-size:14px;color:var(--ink-3);text-align:center}
 .vid-text{width:100%;max-width:760px;display:flex;flex-direction:column;gap:16px}
 .vid-text p{margin:0;color:var(--ink-2)}
 .vid-text h3{margin:14px 0 0;font:800 clamp(20px,2.4vw,26px)/1.25 var(--f-disp);color:var(--ink)}
@@ -826,9 +830,14 @@ footer a{color:var(--ink-2);text-decoration:none;font-weight:700}
     <div class="stack vid-head">
       <h2>Посмотри это видео. <em>Даже если уже смотрел.</em></h2>
     </div>
-    <div class="vid-box">
-      <iframe class="js-yt" src="https://www.youtube.com/embed/Kjk1v2AhMHs?rel=0" title="Я курил 24 года. Вот как я бросил без ломки и стресса" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="vid-tabs" role="tablist" aria-label="Где смотреть видео">
+      <button class="vid-tab on" type="button" data-src="https://vkvideo.ru/video_ext.php?oid=-71442185&amp;id=456239017&amp;hd=2&amp;autoplay=0">VK Видео</button>
+      <button class="vid-tab" type="button" data-src="https://www.youtube.com/embed/Kjk1v2AhMHs?rel=0">YouTube</button>
     </div>
+    <div class="vid-box">
+      <iframe class="js-yt" src="https://vkvideo.ru/video_ext.php?oid=-71442185&amp;id=456239017&amp;hd=2&amp;autoplay=0" title="Я курил 24 года. Вот как я бросил без ломки и стресса" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <p class="vid-hint">Видео лежит и в VK, и на YouTube. Если плеер не открывается, переключи на другой.</p>
     <a class="vid-diag" href="https://t.me/SvezhiyVzdohBot?start=gotov" target="_blank" rel="noopener">Если ещё не проходил диагностику, можешь пройти её, кликнув сюда.</a>
 
     <div class="vid-text">
@@ -932,9 +941,15 @@ footer a{color:var(--ink-2);text-decoration:none;font-weight:700}
 </script>
 
 <script>
-/* Видео: обычный плеер YouTube. Клик внутри плеера уводит фокус со страницы, по этому ловим цель video_play */
+/* Видео: основной плеер VK, переключатель на YouTube. Клик внутри плеера уводит фокус со страницы, по этому ловим цель video_play */
 (function(){
   var f = document.querySelector('.js-yt'); if (!f) return;
+  [].forEach.call(document.querySelectorAll('.vid-tab'), function(tab){
+    tab.addEventListener('click', function(){
+      [].forEach.call(document.querySelectorAll('.vid-tab'), function(t){ t.classList.toggle('on', t === tab); });
+      f.src = tab.getAttribute('data-src');
+    });
+  });
   var sent = false;
   window.addEventListener('blur', function(){
     setTimeout(function(){
